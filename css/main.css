@@ -5,7 +5,7 @@
 
 html {
     background-color: #B08401;
-    font-family: font-family: 'Manrope', sans-serif;
+    font-family: font-family: 'Manrope', sans-serif;              
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -43,7 +43,7 @@ h2,h3 {
 
 a {
     color:#683b2b
-    text-decoration: none;
+    text-decoration none;
 }
 
 a:hover {
