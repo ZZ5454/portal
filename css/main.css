@@ -1,10 +1,11 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #B08401;
+    font-family: font-family: 'Manrope', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -20,9 +21,13 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
+h1.page-header{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #DED1BD;
+}
 
 main.wrapper {
-    background-color: white;
+    background-color: #DED1BD;
     overflow: auto;
 }
 
@@ -37,13 +42,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#683b2b
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #683b2b; 
     text-decoration: none;
 }
 
